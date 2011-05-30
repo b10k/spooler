@@ -6,7 +6,7 @@ requires=['configobj']
 if sys.version_info < (2, 6):
     requires.append('multiprocessing')
 
-
+#comment
 setup(
     name='spooler',
     version=__version__,
